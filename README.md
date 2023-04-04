@@ -37,15 +37,17 @@
    
 2. * Determine in `config.yaml` `mode: load_and_eval`
    * Determine in `config.yaml` `model_to_load_path` 
-   * Run `main`.
+   * Run `main`
    The output with the model's accuracy on train set will be in terminal
 
 **Note**: you can repeat steps 1,2 many times to experiment with different parameters
               Keep in mind the template for the logs' paths:  `../date/experiment_name/model_name/extras/..`
               and change it properly to avoid overwriting earlier saved models, checkpoints and runs
 
-3. * Determine in `config.yaml` `mode: make_predictions`, then run `main`
+3. * Determine in `config.yaml` `mode: make_predictions`
+   * Determine in `config.yaml` `model_to_load_path`
    * Place desired images in `/data/predict` folder
+   * Run `main`
    
    Output is a bunch of images with predicted labels in `data/predicted` folder
 
