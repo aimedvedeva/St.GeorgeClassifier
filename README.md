@@ -15,7 +15,7 @@
 | src/data       | dataset class and some utility functions for generation overall dataset and further sample |
 | src/models     | include models' classes                                                                    |
 
-# How to lunch the project
+# How to launch the project
 
 Should set preferable parameters in `config.yaml` file. 
 
@@ -27,7 +27,7 @@ Should set preferable parameters in `config.yaml` file.
       Note: before running the code you should place desired images in _predict_ folder
 2. Choose other parameters. See the description in `config.yaml`
 
-# How to lunch tensorboard
+# How to launch tensorboard
  
 1. open cmd
 2. go to the `project folder/venv/Scripts`, activate venv 
