@@ -60,8 +60,8 @@
 # Result acquired on my CPU computer
 With my tiny_vgg model I used SGD with lr=0.003 and batch_size=32, after 10 epochs the accuracy became higher than 0.7, the dataset is balanced. 
 **Loss**
-![Loss](https://drive.google.com/file/d/1SJAwlfgr3wjulGw3cAbn3CIKuE7kCojR/view?usp=share_link)
+![Loss](https://github.com/aimedvedeva/St.GeorgeClassifier/blob/master/report/loss.png)
 **Accuracy**
-![Accuracy](https://drive.google.com/file/d/1pn-PiZriAVwl-izrpJqtFelsV6KzQ9UG/view?usp=share_link)
+![Accuracy](https://github.com/aimedvedeva/St.GeorgeClassifier/blob/master/report/accuracy.png)
 
 **Several classification examples**
