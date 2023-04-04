@@ -1,6 +1,6 @@
 import os
 from math import floor
-
+from pathlib import Path
 import pandas as pd
 from PIL import Image
 from matplotlib import pyplot as plt
@@ -33,6 +33,11 @@ def label_and_merge(project_path, raw_data_path, processed_data_path, test_size)
     amount = floor(test_size * len(no_george_data))
     test = pd.concat([test, no_george_data.iloc[0:amount,:]], axis=0, ignore_index=True)
     no_george_data = no_george_data.iloc[amount:,:]
+
+    # create target directory
+    target_dir_path = Path(os.sep.join([project_path, processed_data_path]))
+    target_dir_path.mkdir(parents=True,
+                        exist_ok=True)
 
     # save to test sample
     test.to_csv(os.sep.join([project_path, processed_data_path, "test.csv"]), index=False)
