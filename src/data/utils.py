@@ -82,6 +82,8 @@ def get_sample_to_predict(project_path, predict_data_path, manual_tranforms):
     paths = []
     for file in os.listdir(os.path.join(project_path, predict_data_path)):
         image_path = os.fsdecode(os.path.join(project_path, predict_data_path, file))
+        if image_path.split('.')[-1] != 'jpg':
+            continue
         paths.append(image_path)
         img = Image.open(image_path).convert('RGB')
         img_tensor = manual_tranforms(img)
