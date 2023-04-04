@@ -65,3 +65,9 @@ With my tiny_vgg model I used SGD with lr=0.003 and batch_size=32, after 10 epoc
 ![Accuracy](https://github.com/aimedvedeva/St.GeorgeClassifier/blob/master/report/accuracy.png)
 
 **Several classification examples**
+![george](https://github.com/aimedvedeva/St.GeorgeClassifier/blob/master/report/predicted_00a8418680f015900aa9ee6eea4c762f.jpg)
+![non_george](https://github.com/aimedvedeva/St.GeorgeClassifier/blob/master/report/predicted_0f5eb23530e1329190a56806417b95f8.jpg)
+![george](https://github.com/aimedvedeva/St.GeorgeClassifier/blob/master/report/predicted_00f07d4b277a6de64488cb1137347db6.jpg)
+![non_george](https://github.com/aimedvedeva/St.GeorgeClassifier/blob/master/report/predicted_0d82305584837e26617bf6efcf5ac567.jpg)
+![george](https://github.com/aimedvedeva/St.GeorgeClassifier/blob/master/report/predicted_0a8ed7889e34907885fd241d8174da37.jpg)
+![non_george](https://github.com/aimedvedeva/St.GeorgeClassifier/blob/master/report/predicted_0ca96b24d593b1b19adff7cfc3ca1fd5.jpg)
