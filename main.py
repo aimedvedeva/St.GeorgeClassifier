@@ -5,7 +5,7 @@ from torchvision import transforms
 from config.config import load_config
 from src.logging_utils import create_writer, save_model
 from src.data.utils import create_dataloaders, get_sample_to_predict, \
-    plot_predictions
+    plot_predictions, label_and_merge, generate_samples
 from src.evaluate_model import eval_model
 from src.make_predictions import make_predictions
 from src.metrics import accuracy_fn
