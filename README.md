@@ -56,3 +56,12 @@
 2. go to the `project_folder/venv/Scripts`, activate venv 
 3. return to the `project_folder` and execute `tensorboard --logdir "runs"`
 4. then go to localhost
+
+# Result acquired on my CPU computer
+With my tiny_vgg model I used SGD with lr=0.003 and batch_size=32, after 10 epochs the accuracy became higher than 0.7, the dataset is balanced. 
+**Loss**
+![Loss](https://drive.google.com/file/d/1SJAwlfgr3wjulGw3cAbn3CIKuE7kCojR/view?usp=share_link)
+**Accuracy**
+![Accuracy](https://drive.google.com/file/d/1pn-PiZriAVwl-izrpJqtFelsV6KzQ9UG/view?usp=share_link)
+
+**Several classification examples**
