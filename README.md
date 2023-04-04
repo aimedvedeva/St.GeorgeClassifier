@@ -58,7 +58,7 @@
 4. then go to localhost
 
 # Result acquired on my CPU computer
-With my tiny_vgg model I used SGD with lr=0.003 and batch_size=32, after 10 epochs the accuracy became higher than 0.7, the dataset is balanced. 
+With my tiny_vgg model I used SGD with lr=0.003 and batch_size=32, after 10 epochs the accuracy became higher than 0.7, the dataset is balanced. <br/> 
 **Loss**
 ![Loss](https://github.com/aimedvedeva/St.GeorgeClassifier/blob/master/report/loss.png)
 **Accuracy**
