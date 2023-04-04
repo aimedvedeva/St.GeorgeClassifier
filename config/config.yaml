@@ -1,0 +1,41 @@
+experiment_name: st.george
+model_name: tiny_vgg
+
+mode: 'make_predictions'       # possible modes: train_and_validate, make_predictions, load_and_eval
+
+# data paths
+raw_data_path: data\raw\
+processed_data_path: data\processed\
+predict_data_path: data\predict\
+predicted_data_path: data\predicted\
+
+# image description
+image_size: 224
+image_channels: 3
+
+# samples parameters
+validate_size: 0.2
+test_size: 0.2
+
+# logging checkpoints path
+checkpoints_path: checkpoints\
+# how often to save a checkpoint
+checkpoints_to_save: 1              # e.g. each epoch % 1 == 0
+
+# models' paths
+models_path: models\
+
+# if mode == load_and_eval then determine the desired model path
+model_to_load_path: 2023-04-04\st.george\tiny_vgg\10_epochs_batch32\model.pth
+
+# model's parameters
+classes: 2
+epochs: 10
+batch_size: 32
+lr: 0.003
+
+# transform's normalization parameters
+normalize_mu: 0.5
+normalize_sigma: 0.5
+
+
